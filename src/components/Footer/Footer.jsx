@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styles from "./Footer.module.css"
 
 function Footer() {
@@ -10,10 +11,19 @@ function Footer() {
             </div>
             <div>
                 <ul className={styles.navbar__list}>
-                    <li className={styles.navbar__item}>Global</li>
-                    <li className={styles.navbar__item}>Indonesia</li>
-                    <li className={styles.navbar__item}>Provinsi</li>
-                    <li className={styles.navbar__item}>About</li>
+                    <li className={styles.navbar__item}>
+                       <Link className={styles.navbar__link}to="/">Global</Link> 
+                    </li>
+                    <li className={styles.navbar__item}>
+                    <Link className={styles.navbar__link}to="/covid/Indonesia">Indonesia</Link>
+                        </li>
+                    <li className={styles.navbar__item}>
+                       <Link className={styles.navbar__link}to="/covid/Provinsi">Provinsi</Link> 
+                        
+                        </li>
+                    <li className={styles.navbar__item}>
+                    <Link className={styles.navbar__link}to="/covid/About">About</Link> 
+                        </li>
                 </ul>
             </div>
         </nav>

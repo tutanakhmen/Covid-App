@@ -2,6 +2,7 @@ import styles from "./Form.module.css"
 import image from "../../assets/form.png"
 
 function Form() {
+
     return (
         <div className={styles.container}>
            <section className={styles.form}>
