@@ -1,12 +1,12 @@
 import Form from "../../components/Form/Form"
 import Hero from "../../components/Hero/Hero"
-import Provinsi from "../../components/Provinsi/provinsi"
+import SituationProvinsi from "../../components/SituationProvinsi/Index"
 
 function Provincy() {
     return(
         <div>
             <Hero />
-            <Provinsi />
+            <SituationProvinsi />
             <Form />
         </div>
     )

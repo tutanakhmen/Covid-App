@@ -1,0 +1,90 @@
+/* small screen */
+
+.container {
+    padding: 1rem;
+    text-align: center;
+}
+
+.negara__title{
+    text-align: center;
+    size: 61px;
+    color: #06D6A0;
+    
+}
+
+.negara__info{
+    text-align: center;
+    color: #118AB2;
+    ;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    margin-right: 2rem;
+    margin-inline-start: 3rem;
+    padding: 3rem;
+    border-style: solid;
+    border-color: #06D6A0;
+    box-shadow: 5px 10px #06D6A0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card__container{
+    display: inline-table;
+    
+}
+
+.card__heading{
+    text-align: center;
+    color: black;
+}
+
+.card__confirmed{
+    text-align: center;
+    size: 61px;
+    color: #06D6A0;
+}
+
+.card__recovered{
+    text-align: center;
+    size: 61px;
+    color: #118AB2;
+}
+
+.card__death{
+    text-align: center;
+    size: 61px;
+    color: red;
+}
+
+/* large screen */
+@media(min-width: 992px) {
+.container{
+    text-align: left;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+.card__container{
+    text-align: left;
+    max-width: 1200px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+    
+}
+
+/* mobile screen */
+@media(max-width: 769px) {
+    .card{
+        margin-top: 4rem;
+    }
+
+    
+}

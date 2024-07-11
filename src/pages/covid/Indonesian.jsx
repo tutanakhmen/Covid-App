@@ -1,13 +1,13 @@
 import Hero from "../../components/Hero/Hero"
 import Indonesia from "../../components/Indonesia/Indonesia"
-import SituationProvinsi from "../../components/SituationProvinsi/Index"
+import Provinsi from "../../components/Provinsi/provinsi"
 
 function Indonesian() {
     return(
         <div>
             <Hero />
             <Indonesia />
-            <SituationProvinsi />
+            <Provinsi />
         </div>
     )
 }

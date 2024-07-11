@@ -3,7 +3,7 @@ import styles from "./Provinsi.module.css"
 function Provinsi() {
     return (
       <div className={styles.container}>
-        <h1 className={styles.provinsi__title}>Provinsi</h1>
+        <h1 className={styles.provinsi__title}>Situation by Provinces</h1>
         <h3 className={styles.provinsi__info}>Data Covid Berdasarkan Provinsi</h3>
 
         {/* table */}
